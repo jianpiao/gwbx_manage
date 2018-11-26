@@ -1,4 +1,4 @@
-# vue_hq_gl
+# 公务报修总控台
 
 > A Vue.js project
 
@@ -6,7 +6,6 @@
 
 ``` bash
 
-# 公务报修总控台
 
 # install dependencies
 npm install
