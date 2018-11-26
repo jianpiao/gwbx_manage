@@ -1,0 +1,86 @@
+
+.stistics {
+  width: 100%;
+  height: calc(100% - 60px);
+  min-width: 1200px;
+}
+
+.stistics .stistics_d {
+  height: 100%;
+  background-color: #e9eef3;
+}
+
+.main_index > section {
+  height: 100%;
+}
+
+.main_index > section .ul {
+  height: calc(100% - 112px) !important;
+}
+
+.main_index .incidental_picture {
+  float: right;
+}
+
+.main_index .incidental_picture,
+.main_index .incidental_picture > div {
+  display: inline-flex !important;
+}
+
+.main_index .incidental_picture .incidental_picture_img {
+  overflow: hidden;
+  border-radius: 0.3rem;
+  position: relative;
+  float: left;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  max-width: 28px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.main_index .incidental_picture .incidental_picture_img .incidental_picture_zg {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.55);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_index
+  .incidental_picture
+  .incidental_picture_img:hover
+  .incidental_picture_zg {
+  opacity: 1;
+}
+
+.main_index .incidental_picture img {
+  width: 100%;
+  height: 100%;
+}
+
+.main_tool {
+  padding: 0px 20px;
+  background-color: #e9eef3;
+}
+
+.main_tool > div {
+  padding: 5px 0;
+}
+
+.main_index {
+  border-bottom: 0 !important;
+}
+
+.main_index .stistics_table {
+  width: calc(100% - 40px) !important;
+  height: 100%;
+  margin: 0 20px;
+}
