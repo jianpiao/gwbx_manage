@@ -188,7 +188,7 @@
         </el-card>
       </el-form>
       <div slot="footer" class="dialog-footer">
-        <el-button @click="dialogFormVisible = false">取 消</el-button>
+        <el-button @click="inputCancel">取 消</el-button>
         <el-button type="primary" @click="onFormRes">确 定</el-button>
       </div>
     </el-dialog>
@@ -419,11 +419,16 @@ export default {
         }])
         that.dialogFormVisible = false
         that.form.cont = ''
+        that.form.region = ''
       } else {
         that.$message({
           message: '请选择更变状态'
         })
       }
+    },
+    inputCancel(){
+      this.dialogFormVisible = false
+      this.form.region = ''
     },
     onFormChange (index_) {
       // * =================

@@ -187,8 +187,8 @@ export default {
     bottom: 0;
     left: 0;
     width: calc(100% - 80px);
-    background-color: #f2f2f2;
-    border-top: 1px solid #d2d2d2;
+    background-color: white;
+    /* border-top: 1px solid #d2d2d2; */
     padding: 0 40px;
   }
 

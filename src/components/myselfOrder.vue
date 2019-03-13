@@ -466,7 +466,7 @@ export default {
       this.dialogFormVisibleNote = true;
     },
     comfirmNote() {
-      //  提交维系说明
+      //  提交维修说明
       that = this;
       that.$http({
         method: "post",

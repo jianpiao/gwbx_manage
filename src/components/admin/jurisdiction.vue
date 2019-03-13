@@ -130,7 +130,7 @@
                 <el-form-item label="所属校区" v-show="GetAdmin_.admin_statei != 0 && GetAdmin_.admin_statei != '删除'">
                   <el-select v-model="GetAdmin_.campusi" placeholder="所属校区" @change="onGetAdmin_campus">
                     <el-option 
-                      v-for="(item,index) in GetAdmin_a.campus" 
+                      v-for="(item) in GetAdmin_a.campus" 
                       :key="item.id" 
                       :label="item.name" 
                       :value="item.id">
